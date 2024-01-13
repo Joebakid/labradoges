@@ -160,6 +160,22 @@ input[type="submit"] {
   cursor: pointer;
 }
 
+footer {
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+footer a {
+  color: rgb(189, 188, 188);
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
 @media only screen and (max-width: 767px) {
   .title h1 {
     margin-bottom: 10px;

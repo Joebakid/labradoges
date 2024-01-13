@@ -7,8 +7,8 @@ gsap.fromTo(
 
 gsap.fromTo(
   ".container-submit",
-  { opacity: 0, scale: 0 },
-  { opacity: 1, duration: 1, scale: 1 },
+  { opacity: 0, yPercent: 50 },
+  { opacity: 1, duration: 1, yPercent: 0 },
   ">"
 );
 
