@@ -65,6 +65,10 @@ nav {
 
 /* HEADER */
 
+header {
+  margin-bottom: 150px;
+}
+
 .title h1 {
   margin-bottom: 10px;
   font-size: 3rem;
