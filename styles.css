@@ -224,4 +224,12 @@ footer a {
     font-size: 14px;
     padding: 10px;
   }
+
+  .nav-list {
+    gap: 0;
+  }
+
+  .link {
+    font-size: 0.8rem;
+  }
 }
