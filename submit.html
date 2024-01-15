@@ -23,43 +23,39 @@
     <section class="container-submit">
       <form id="form">
         <div class="field">
-          <label for="message">Inscription ID</label>
-          <input
-            type="text"
-            name="message"
-            id="message"
-            placeholder="Paste inscription id"
-          />
+          <label for="from_name">Inscription ID</label>
+          <input type="text" name="from_name" id="from_name"   placeholder="Paste inscription id"  required>
         </div>
         <div class="field">
-          <label for="reply_to">Wallet Address</label>
-          <input
-            type="text"
-            name="reply_to"
-            id="reply_to"
-            placeholder="Paste doginal Address"
-            required
-          />
+          <label for="message">Wallet Address</label>
+          <input type="text" name="message" id="message"  placeholder="Paste doginal Address"  required>
         </div>
-
+        
+      
         <input
-          type="submit"
-          id="button"
-          class="btn-submit"
-          value="Send Address"
-          required
-        />
+                type="submit"
+                id="button"
+                class="btn-submit"
+                value="Send Address"
+               
+              />
       </form>
+      
+     
+      </script>
     </section>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
-    ></script>
+   
+        <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
-    <script type="text/javascript">
-      emailjs.init("FJJjx56nMI0i9eY3T");
-    </script>
+        <script type="text/javascript">
+        emailjs.init('FJJjx56nMI0i9eY3T')
+        </script>
+
+
+
+
     <!--   -->
     <!--  -->
     <!--  -->

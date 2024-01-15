@@ -35,6 +35,7 @@ gsap.fromTo(
 
 gsap.fromTo(".btn", { opacity: 0 }, { opacity: 1, duration: 0.5 }, ">");
 
+// FORM
 const btn = document.getElementById("button");
 
 document.getElementById("form").addEventListener("submit", function (event) {
@@ -43,7 +44,7 @@ document.getElementById("form").addEventListener("submit", function (event) {
   btn.value = "Sending...";
 
   const serviceID = "default_service";
-  const templateID = "template_zifpchm";
+  const templateID = "template_9f6ztax";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
