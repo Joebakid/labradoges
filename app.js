@@ -43,13 +43,12 @@ document.getElementById("form").addEventListener("submit", function (event) {
   btn.value = "Sending...";
 
   const serviceID = "default_service";
-  const templateID = "template_yb4jvkc";
+  const templateID = "template_zifpchm";
 
   emailjs.sendForm(serviceID, templateID, this).then(
     () => {
       btn.value = "Send Email";
       alert("Sent!");
-      this.reset();
     },
     (err) => {
       btn.value = "Send Email";
