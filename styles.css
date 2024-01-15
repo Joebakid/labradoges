@@ -130,7 +130,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  /* padding-top: 100px; */
   opacity: 0;
 }
 form {
