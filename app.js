@@ -4,12 +4,6 @@ gsap.fromTo(
   { yPercent: 0, opacity: 1, duration: 1 },
   ">"
 );
-gsap.fromTo(
-  ".mobile-menu",
-  { yPercent: -100, opacity: 0 },
-  { yPercent: 0, opacity: 1, duration: 1 },
-  ">"
-);
 
 gsap.fromTo(
   ".grid-item",
