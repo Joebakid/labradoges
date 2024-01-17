@@ -35,3 +35,13 @@ document.getElementById("form").addEventListener("submit", function (event) {
     }
   );
 });
+
+// preloader
+document.addEventListener("DOMContentLoaded", function () {
+  // Your initialization code here
+
+  // Simulate content loading (remove this line in your actual implementation)
+  setTimeout(function () {
+    document.querySelector(".preloader").style.display = "none";
+  }, 2000); // Adjust the timeout value as needed
+});
