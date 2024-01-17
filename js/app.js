@@ -4,8 +4,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Simulate content loading (remove this line in your actual implementation)
   setTimeout(function () {
+    // Hide the preloader
     document.querySelector(".preloader").style.display = "none";
 
+    // GSAP animations
     gsap.fromTo(
       ".nav-list",
       { yPercent: -100, opacity: 0 },
