@@ -39,3 +39,15 @@ hamburgerMenu.addEventListener("click", function () {
     menu.style.display = "none";
   }
 });
+
+//
+
+document.addEventListener("click", function (e) {
+  const isHamburgerClicked = e.target.closest(".burger-menu");
+  const isMenuClicked = e.target.closest(".mobile-nav");
+
+  // If neither the hamburger nor the menu is clicked, close the menu
+  if (!isHamburgerClicked && !isMenuClicked) {
+    menu.style.display = "none";
+  }
+});
