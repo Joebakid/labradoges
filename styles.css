@@ -192,6 +192,33 @@ footer a {
   gap: 20px;
 }
 
+/*  */
+
+/* Add this inside your existing CSS */
+
+.mobile-menu {
+  display: none;
+}
+
+.burger-menu {
+  cursor: pointer;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin: 3px 0;
+  transition: 0.4s;
+}
+
+.mobile-nav {
+  display: none;
+}
+
 @media only screen and (max-width: 767px) {
   .title h1 {
     margin-bottom: 10px;
@@ -243,4 +270,43 @@ footer a {
   .link {
     font-size: 0.8rem;
   }
+
+  /*  */
+
+  .nav-list {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 5%; /* Adjust the top position as needed */
+    left: 0%;
+    width: 50%;
+    z-index: 1;
+  }
+
+  .mobile-nav a {
+    padding: 15px;
+    color: white;
+    text-align: center;
+  }
+
+  /* .burger-menu.active .bar:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .burger-menu.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .burger-menu.active .bar:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  } */
 }

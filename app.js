@@ -27,3 +27,15 @@ gsap.fromTo(
   { yPercent: 0, opacity: 1, duration: 1 },
   ">"
 );
+
+const hamburgerMenu = document.querySelector(".burger-menu");
+const menu = document.querySelector(".mobile-nav");
+
+hamburgerMenu.addEventListener("click", function () {
+  const computedStyle = window.getComputedStyle(menu);
+  if (computedStyle.getPropertyValue("display") === "none") {
+    menu.style.display = "flex";
+  } else {
+    menu.style.display = "none";
+  }
+});
