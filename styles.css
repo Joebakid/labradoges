@@ -233,7 +233,7 @@ footer a {
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 1300px) {
   .title h1 {
     margin-bottom: 10px;
     font-size: 2rem;
@@ -281,11 +281,12 @@ footer a {
     gap: 0;
   }
 
+  /*  */
+
   .link {
+    border: 1px solid gray;
     font-size: 0.8rem;
   }
-
-  /*  */
 
   .nav-list {
     display: none;
@@ -302,7 +303,7 @@ footer a {
     position: absolute;
     top: 10%; /* Adjust the top position as needed */
     right: 0%;
-    width: 50%;
+    width: 100%;
     z-index: 1;
   }
 
